@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Mar-2017, 12:19:28
+    Author     : Zulkifel
+*/
+
+@font-face {
+    font-family: "Aspira Heavy";
+    src: url(../fonts/Aspira Heavy.otf);
+}
+.testimonial-profile {
+    margin-bottom: 15px;
+}
+.img-testimonials {
+    display: block;
+    margin: 0 auto;
+    border: 10px solid #FFFFFF;
+}
+.testimonial {
+    margin: 0 15px;
+}
+.testimonial .testimonial-title {
+    margin-bottom: 0;
+    font-family: "Aspira Heavy";
+    font-size: 18px;
+    color: #58595B;
+}
+.testimonial-position {
+    font-family: 14px;
+    color: #58595B;
+    font-family: "Aspira Light";
+}
+.testimonial .testimonial-description {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+}
+.owl-pagination {
+    margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #FFFFFF;
+}
+@media only screen and (max-width: 480px) {
+    .testimonial {
+        text-align: center;
+        margin: 0 10px;
+    }
+    .testimonial .testimonial-profile {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .testimonial .testimonial-description {
+        padding-left: 0;
+    }
+}
